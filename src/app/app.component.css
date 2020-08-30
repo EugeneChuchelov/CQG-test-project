@@ -1,0 +1,55 @@
+textarea{
+  resize: none;
+  margin: auto;
+  height: 10vh;
+  width: 83vw;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button{
+  margin:auto;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+
+button:active{
+  transform: scale(0.9);
+  transition-duration: 0.1s;
+}
+
+.input-div{
+  margin:auto;
+  height: 10vh;
+  box-sizing: border-box;
+  display: flex;
+}
+
+canvas{
+  margin:auto;
+  width: 1800px;
+  height: 800px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.canvas-div{
+  box-sizing: border-box;
+  height: 88vh;
+  display: flex;
+}
